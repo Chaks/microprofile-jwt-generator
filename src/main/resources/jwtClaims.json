@@ -1,0 +1,18 @@
+{
+  "iss": "https://github.com/chaks/using-jwt-rbac",
+  "jti": "a-123",
+  "sub": "tester-using-jwt-rbac",
+  "upn": "tester@chaks.github.io",
+  "preferred_username": "chaks",
+  "aud": "using-jwt-rbac",
+  "birthdate": "2000-01-01",
+  "roleMappings": {
+    "tester": "TesterMappedRole",
+    "developer": "DeveloperMappedRole"
+  },
+  "groups": [
+    "DevUser",
+    "QaUser",
+    "tester"
+  ]
+}
